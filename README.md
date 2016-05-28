@@ -14,4 +14,10 @@ The only caveat is that we check for the "PROXY " prefix to determine if the pro
 is being used. If that string may occur as part of your input, then it is ambiguous
 if the protocol is being used and you may have problems.
 
+# Trying to replicated the code at:
+http://bazaar.launchpad.net/~squid/squid/3.5/revision/13570
+- ConnStateData::parseProxyProtocolHeader()
+- ConnStateData::parseProxy1p0()
+- ConnStateData::parseProxy2p0()
+
 # Examples
